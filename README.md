@@ -1,1 +1,1 @@
-## Very simpel counter with increases, decrease and reset buttons.
+## Very simpel counter with increase, decrease and reset buttons.
