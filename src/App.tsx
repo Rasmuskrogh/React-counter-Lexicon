@@ -10,7 +10,9 @@ function App() {
   };
 
   const handleDecrease = () => {
-    setCounter((prevCounter) => prevCounter - 1);
+    if (counter > 0) {
+      setCounter((prevCounter) => prevCounter - 1);
+    }
   };
 
   const handleReset = () => {
